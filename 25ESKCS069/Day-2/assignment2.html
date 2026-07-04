@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+
+    <style>
+        body{
+            background: linear-gradient(135deg, #74ebd5, #9face6);
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 0px;
+            margin: 0px;
+            height: 100%;
+            width: 100%;
+        }
+
+        h1{
+            color: black;
+            margin-bottom: 20px;
+        }
+
+        p{
+            margin: 15px;
+        }
+
+        input, select{
+            width: 250px;
+            padding: 10px;
+            border-radius: 8px;
+            border: none;
+            font-size: 15px;
+        }
+        button{
+            background-color: green;
+            color: white;
+            border: none;
+            padding: 10px 25px;
+            border-radius: 8px;
+            cursor: pointer;
+        }
+        button:hover{
+            background-color: darkgreen;
+        }
+    </style>
+</head>
+<body>
+    
+    <h1>REGISTRATION FORM</h1>
+
+    <p><input type="text" placeholder="Enter your name"></p>
+    <p><input type="text" placeholder="Enter your phone no."></p>
+    <p><input type="text" placeholder="Enter your email"></p>
+    <p><input type="password" placeholder="Enter your password"></p>
+
+    <p>
+        <input type="radio" id="male" name="gender">
+        <label for="male">Male</label>
+
+        <input type="radio" id="female" name="gender">
+        <label for="female">Female</label>
+    </p>
+
+    <p>
+        <select>
+            <option>Computer Science</option>
+            <option>IT</option>
+            <option>Mechanical Engineering</option>
+        </select>
+    </p>
+
+    <p><button>Submit</button></p>
+
+</body>
+</html>
